@@ -5,6 +5,11 @@ import { ArrowLeft } from 'lucide-react';
 export default function Privacy() {
   return (
     <div className="min-h-dvh bg-[#F0F2F5] text-[#1A1A1A] font-sans p-6 md:p-12">
+      {/* Hidden verification code for TikTok crawler */}
+      <div className="hidden" aria-hidden="true" data-nosnippet>
+        tiktok-developers-site-verification=pNdIsQBdXEuVlXCssC6Y5mF825ySjkWt
+        tiktok-developers-site-verification=oVSvT2djMhSd4u6iI5EX4eGtxNUF9zdK
+      </div>
       <div className="max-w-3xl mx-auto bg-white p-8 md:p-12 border border-[#E2E8F0] shadow-sm rounded-md">
         <Link to="/" className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors mb-8">
           <ArrowLeft size={16} /> Back to Dashboard
