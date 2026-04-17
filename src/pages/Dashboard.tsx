@@ -133,7 +133,7 @@ export default function Dashboard({ isConnected, setIsConnected, onSchedule }: {
                    className="mt-0.5 w-4 h-4 text-[#FF0050] rounded border-gray-300" 
                  />
                  <span className="leading-relaxed">
-                   I agree to the <Link to="/terms" onClick={() => setShowLoginModal(false)} className="text-blue-600 hover:underline">Terms of Service</Link> and <Link to="/privacy" onClick={() => setShowLoginModal(false)} className="text-blue-600 hover:underline">Privacy Policy</Link>.
+                   I agree to the <Link to="/terms/tiktokpNdIsQBdXEuVlXCssC6Y5mF825ySjkWt.txt" onClick={() => setShowLoginModal(false)} className="text-blue-600 hover:underline">Terms of Service</Link> and <Link to="/privacy/tiktokoVSvT2djMhSd4u6iI5EX4eGtxNUF9zdK.txt" onClick={() => setShowLoginModal(false)} className="text-blue-600 hover:underline">Privacy Policy</Link>.
                  </span>
                </label>
 
@@ -506,8 +506,8 @@ export default function Dashboard({ isConnected, setIsConnected, onSchedule }: {
 
         {/* Footer legal */}
         <footer className="hidden md:flex items-center justify-center gap-6 h-12 shrink-0 text-[11px] text-[#94A3B8] bg-[#F8FAFC] border-t border-[#E2E8F0] w-full">
-          <Link to="/privacy" className="cursor-pointer hover:text-slate-600 transition-colors underline decoration-slate-300 underline-offset-2 w-max">Privacy Policy</Link>
-          <Link to="/terms" className="cursor-pointer hover:text-slate-600 transition-colors underline decoration-slate-300 underline-offset-2 w-max">Terms of Service</Link>
+          <Link to="/privacy/tiktokoVSvT2djMhSd4u6iI5EX4eGtxNUF9zdK.txt" className="cursor-pointer hover:text-slate-600 transition-colors underline decoration-slate-300 underline-offset-2 w-max">Privacy Policy</Link>
+          <Link to="/terms/tiktokpNdIsQBdXEuVlXCssC6Y5mF825ySjkWt.txt" className="cursor-pointer hover:text-slate-600 transition-colors underline decoration-slate-300 underline-offset-2 w-max">Terms of Service</Link>
           <span>&copy; 2024 Video Publish</span>
         </footer>
       </main>

@@ -173,8 +173,8 @@ export default function Library({ isConnected, setIsConnected, videos = [], setV
 
         {/* Footer legal */}
         <footer className="hidden md:flex items-center justify-center gap-6 h-12 shrink-0 text-[11px] text-[#94A3B8] bg-[#F8FAFC] border-t border-[#E2E8F0] w-full">
-          <Link to="/privacy" className="cursor-pointer hover:text-slate-600 transition-colors underline decoration-slate-300 underline-offset-2 w-max">Privacy Policy</Link>
-          <Link to="/terms" className="cursor-pointer hover:text-slate-600 transition-colors underline decoration-slate-300 underline-offset-2 w-max">Terms of Service</Link>
+          <Link to="/privacy/tiktokoVSvT2djMhSd4u6iI5EX4eGtxNUF9zdK.txt" className="cursor-pointer hover:text-slate-600 transition-colors underline decoration-slate-300 underline-offset-2 w-max">Privacy Policy</Link>
+          <Link to="/terms/tiktokpNdIsQBdXEuVlXCssC6Y5mF825ySjkWt.txt" className="cursor-pointer hover:text-slate-600 transition-colors underline decoration-slate-300 underline-offset-2 w-max">Terms of Service</Link>
           <span>&copy; 2024 Video Publish</span>
         </footer>
       </main>

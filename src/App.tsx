@@ -35,8 +35,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Dashboard isConnected={isConnected} setIsConnected={setIsConnected} onSchedule={(video: any) => setScheduledVideos(prev => [video, ...prev])} />} />
         <Route path="/library" element={<Library isConnected={isConnected} setIsConnected={setIsConnected} videos={scheduledVideos} setVideos={setScheduledVideos} />} />
-        <Route path="/privacy" element={<Privacy />} />
-        <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy/tiktokoVSvT2djMhSd4u6iI5EX4eGtxNUF9zdK.txt" element={<Privacy />} />
+        <Route path="/terms/tiktokpNdIsQBdXEuVlXCssC6Y5mF825ySjkWt.txt" element={<Terms />} />
       </Routes>
     </BrowserRouter>
   );
