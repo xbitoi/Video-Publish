@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Video-Publish — TikTok Content Scheduler & Upload Tool
 
-# Run and deploy your AI Studio app
+A professional content scheduler and upload tool for TikTok creators: plan videos, manage your library, and publish on schedule — with AI assistance (Google Gemini).
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/a179eebb-35b4-4589-8e94-d59dcf61ca66
+- 📅 Content calendar: schedule TikTok videos ahead of time
+- 🎬 Video library management (upload, organize, reuse)
+- 🤖 AI-assisted captions and ideas (Gemini API)
+- 📊 Creator dashboard with stats
+- 🔐 Privacy & Terms pages included
+- ⚡ React 19 + Vite + Tailwind, Express backend, deployable to Vercel
 
-## Run Locally
+## Run locally
 
-**Prerequisites:**  Node.js
+Prerequisites: Node.js. Set `GEMINI_API_KEY` in `.env.local`.
 
+```bash
+npm install
+npm run dev      # dev server (Vite + Express)
+npm run build    # production build
+npm run preview  # preview build
+npm run lint     # typecheck
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Stack
+
+React 19, Vite 6, Tailwind 4, Express 4, @google/genai, TypeScript.
+
+Developed by **xboy** © 2026
